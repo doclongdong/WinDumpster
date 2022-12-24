@@ -9,3 +9,4 @@ Index
 |----------------|---------|
 | `chris_titus_wintool_full_static.ps1` | Full static copy of Chris Titus' WinTool for installing tweaks etc. | 
 | `chris_titus_wintool_minimal.ps1` | A script pulling Chris Titus' WinTool from GitHub and running locally. | 
+| `dual_boot_clock_sync.md` | A guide for resolving the dual boot clock issue on windows 10 | 

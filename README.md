@@ -11,3 +11,5 @@ Index
 | `chris_titus_wintool_minimal.ps1` | A script pulling Chris Titus' WinTool from GitHub and running locally. | 
 | `dual_boot_clock_sync.md` | A guide for resolving the dual boot clock issue on windows 10 | 
 | `top.ps1` | A Windows 10 equivalent (ish) of the `top` command for unix systems |
+| `firefod_preferences_betterfox` | Making firefox not suck on Windows 10 | 
+

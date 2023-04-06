@@ -14,3 +14,4 @@ A bunch of random windows stuff
 | `SystemFontChangerWin10.reg` | Change the system font on Windows 10 with a registry value change | 
 | `userChrome.css` | Change the Firefox UI (not webpage) styling (incl. font) | 
 | `MicrosoftActivationScripts-MassGrave` | Activation scripts for windows 10, 11 and MSOffice, taken from [MassGrave](https://github.com/massgravel/Microsoft-Activation-Scripts) on `2023.04.06` |
+| `HeadlessChromeInstall.ps1` | Install chrome on a windows installation with no browser, using powershell | 

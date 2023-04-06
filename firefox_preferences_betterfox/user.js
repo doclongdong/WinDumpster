@@ -14,6 +14,11 @@
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
+
+/***DocLongDong's modifications */
+user_pref("widget.disable-workspace-management", true);
+user_pref("signon.autofillForms", true);
+
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
 ****************************************************************************/
@@ -83,8 +88,8 @@ user_pref("network.gio.supported-protocols", "");
 /** PASSWORDS AND AUTOFILL ***/
 user_pref("signon.formlessCapture.enabled", false);
 user_pref("signon.privateBrowsingCapture.enabled", false);
-user_pref("signon.autofillForms", false);
-user_pref("signon.rememberSignons", false);
+// user_pref("signon.autofillForms", false);
+user_pref("signon.rememberSignons", true);
 user_pref("editor.truncate_user_pastes", false);
 
 /** ADDRESS + CREDIT CARD MANAGER ***/

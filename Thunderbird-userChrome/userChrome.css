@@ -1,0 +1,19 @@
+/* INSTRUCTIONS
+
+1. Put this file in your profiles directory under a new folder called "chrome":
+The profiles directory is usually %APPDATA%/Roaming/Thunderbird/Profiles/<ur profile>
+Make a new folder called "chrome" in this active profile directory and then create 
+this file called userChrome.css inside of it.
+
+2. Edit the CSS below (including selectors) to edit the UI elements. Note the * selector applies to everything.
+
+*/
+
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
+* {
+    font-family: "Source Serif Pro" !important;
+    font-size: 14pt !important;
+ }

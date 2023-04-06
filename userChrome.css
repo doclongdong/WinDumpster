@@ -16,7 +16,29 @@ set to true in Firefox!
 3. Edit the CSS below (including selectors) to edit the UI elements. Note the * selector applies to everything.
 
 */
+
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
 * {
-    font-family: "Stratum2" !important;
-    /* font-size: 20pt !important;  */
+    font-family: "Source Serif Pro" !important;
+    font-size: 14pt !important;
  }
+
+
+
+ /* Making tabs thinner, from here: https://support.mozilla.org/en-US/questions/1342224*/
+*|*:root {
+    --tab-min-height:      30px !important; /* adjust */
+    --tab-min-width:       70px !important; /* adjust */
+   }
+   
+   /* TABS: height */
+   #tabbrowser-tabs,
+   #tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+   .tabbrowser-tabs .tabbrowser-tab {
+     min-height: var(--tab-min-height) !important;
+     max-height: var(--tab-min-height) !important;
+   }
+   

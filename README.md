@@ -15,3 +15,5 @@ A bunch of random windows stuff
 | `userChrome.css` | Change the Firefox UI (not webpage) styling (incl. font) | 
 | `MicrosoftActivationScripts-MassGrave` | Activation scripts for windows 10, 11 and MSOffice, taken from [MassGrave](https://github.com/massgravel/Microsoft-Activation-Scripts) on `2023.04.06` |
 | `HeadlessChromeInstall.ps1` | Install chrome on a windows installation with no browser, using powershell | 
+| `SystemFontChangerWin11` | Executable to change system fonts on Windows 11, the only thing I've found to work, from Wintools.info | 
+

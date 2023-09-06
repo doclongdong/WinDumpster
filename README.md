@@ -17,4 +17,4 @@ A bunch of random windows stuff
 | `HeadlessChromeInstall.ps1` | Install chrome on a windows installation with no browser, using powershell | 
 | `SystemFontChangerWin11` | Executable to change system fonts on Windows 11, the only thing I've found to work, from Wintools.info | 
 | `Thunderbird-userChrome` | Change the Thunderbird UI styling (incl. font) | 
-
+| `OutsideHoursCountdown` | Enforce a "screen time"-like limit when run, locks the screen after `i` seconds | 

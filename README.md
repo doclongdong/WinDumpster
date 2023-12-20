@@ -18,3 +18,4 @@ A bunch of random windows stuff
 | `SystemFontChangerWin11` | Executable to change system fonts on Windows 11, the only thing I've found to work, from Wintools.info | 
 | `Thunderbird-userChrome` | Change the Thunderbird UI styling (incl. font) | 
 | `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
+| `SyncDrives` | Sync one drive to another in windows using powershell | 

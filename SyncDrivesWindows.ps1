@@ -1,0 +1,1 @@
+robocopy A:\ B:\ /MIR

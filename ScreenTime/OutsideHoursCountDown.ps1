@@ -17,11 +17,14 @@ if (($now.TimeOfDay -le $min.TimeOfDay) -or ($now.TimeOfDay -ge $max.TimeOfDay))
 		$i--
 	} while ($i -gt 0)
 
-Write-Host "Locking screen"
-rundll32.exe user32.dll,LockWorkStation
+# Write-Host "Locking screen"
+# rundll32.exe user32.dll,LockWorkStation
+Write-Host "Shutting Down"
+shutdown /s
 
 } else{
 	Write-Host "Usage is allowed"
+	Sleep 1
 }
 
 

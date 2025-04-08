@@ -1,6 +1,6 @@
 # WinDumpster
 
-A bunch of random windows stuff 
+A bunch of random windows stuff. Some copy pasted, some original, some a mix of the two.
 
 
 ### Index
@@ -19,3 +19,4 @@ A bunch of random windows stuff
 | `Thunderbird-userChrome` | Change the Thunderbird UI styling (incl. font) | 
 | `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
 | `SyncDrives` | Sync one drive to another in windows using powershell | 
+| `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 

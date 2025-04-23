@@ -20,3 +20,4 @@ A bunch of random windows stuff. Some copy pasted, some original, some a mix of 
 | `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
 | `SyncDrives` | Sync one drive to another in windows using powershell | 
 | `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 
+| `ICOFromPNG.ps1` | Single line command to convert a PNG to an ICO for Windows in high qualitiy with ImageMagick `7.x`  |

@@ -1,1 +1,1 @@
-robocopy A:\ B:\ /MIR
+robocopy A:\ B:\ /MIR /XD "`$RECYCLE.BIN"

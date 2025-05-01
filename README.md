@@ -21,3 +21,5 @@ A bunch of random windows stuff. Some copy pasted, some original, some a mix of 
 | `SyncDrives` | Sync one drive to another in windows using powershell | 
 | `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 
 | `ICOFromPNG.ps1` | Single line command to convert a PNG to an ICO for Windows in high qualitiy with ImageMagick `7.x`  |
+| `DesktopIconSpacing` | simple tool from Wintool that allows for changing the spacing of icons on the desktop,  works flawlessly | 
+| `ChangeReadOnlyRecursive` | powershell scripts for remooving the `ReadOnly` attribute from troublesome Windows directories (when mismatch in names between FileExplorer and programs happens). |

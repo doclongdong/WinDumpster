@@ -18,8 +18,9 @@ A bunch of random windows stuff. Some copy pasted, some original, some a mix of 
 | `SystemFontChangerWin11` | Executable to change system fonts on Windows 11, the only thing I've found to work, from Wintools.info | 
 | `Thunderbird-userChrome` | Change the Thunderbird UI styling (incl. font) | 
 | `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
-| `SyncDrives` | Sync one drive to another in windows using powershell | 
+| `SyncDrives` | Sync one drive to another in windows using powershell,  because  using rsync on WSL is VERY slow if drives are mounted at /mnt/* | 
 | `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 
 | `ICOFromPNG.ps1` | Single line command to convert a PNG to an ICO for Windows in high qualitiy with ImageMagick `7.x`  |
 | `DesktopIconSpacing` | simple tool from Wintool that allows for changing the spacing of icons on the desktop,  works flawlessly | 
 | `ChangeReadOnlyRecursive` | powershell scripts for remooving the `ReadOnly` attribute from troublesome Windows directories (when mismatch in names between FileExplorer and programs happens). |
+| `MakeDiskWritable.md` | instructions for cmd prompt for making a functional disk that windows has borked as readonly usable as an actual disk | 

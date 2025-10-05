@@ -24,3 +24,4 @@ A bunch of random windows stuff. Some copy pasted, some original, some a mix of 
 | `DesktopIconSpacing` | simple tool from Wintool that allows for changing the spacing of icons on the desktop,  works flawlessly | 
 | `ChangeReadOnlyRecursive` | powershell scripts for remooving the `ReadOnly` attribute from troublesome Windows directories (when mismatch in names between FileExplorer and programs happens). |
 | `MakeDiskWritable.md` | instructions for cmd prompt for making a functional disk that windows has borked as readonly usable as an actual disk | 
+| `MediaBlaster` | powershell script to launch a bunch of .url shortcuts in the default browser; configured for an example set of media, but works with any set of URLs | 

@@ -1,6 +1,6 @@
 # Note for the greyscale to work, you need AutoHotkeyV2 installed
 
-$i = 60
+$i = 30
 
 $min = Get-Date '18:00'
 $max = Get-Date '23:30'

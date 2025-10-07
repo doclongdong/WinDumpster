@@ -21,4 +21,4 @@ A bunch of random scripts and such to improve the windows experience and make th
 | `MediaBlaster` | powershell script to launch a bunch of .url shortcuts in the default browser; configured for an example set of media, but works with any set of URLs | 
 | `ToggleDesktopIcons` | Use autohotkey to turn on/off the desktop icons visibility. Requires autohotkey V2 |
 
-z
+

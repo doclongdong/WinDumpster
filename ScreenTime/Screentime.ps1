@@ -21,6 +21,9 @@ if (($now.TimeOfDay -le $min.TimeOfDay) -or ($now.TimeOfDay -ge $max.TimeOfDay))
 # rundll32.exe user32.dll,LockWorkStation
 Write-Host "Shutting Down"
 shutdown /s
+# Write-Host "Logging off"
+# logoff
+
 
 } else{
 	Write-Host "Usage is allowed"

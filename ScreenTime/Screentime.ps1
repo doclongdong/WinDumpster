@@ -1,4 +1,5 @@
 # Note for the greyscale to work, you need AutoHotkeyV2 installed
+# For notifications to work, you need to install Burnt-Toast notifications in powershell
 
 $i = 10
 
@@ -11,13 +12,21 @@ $now = Get-Date
 if (($now.TimeOfDay -le $min.TimeOfDay) -or ($now.TimeOfDay -ge $max.TimeOfDay)) {
     # Sleep 5
     $header = Split-Path -Parent $PSCommandPath
-    $fullPath = Join-Path -Path $header -ChildPath "GreyScale.ahk"
-
+	
+	
+	# Run Grayscale, if possible
+    $grayscalePath = Join-Path -Path $header -ChildPath "GreyScale.ahk"
     # only trigger grayscale if needed
     $grayScaleOn = Get-ItemPropertyValue 'Registry::\HKEY_CURRENT_USER\Software\Microsoft\ColorFiltering' -Name Active
     if ($grayScaleOn -eq 0) {
-        PowerShell $fullPath
-    } 
+        PowerShell $grayscalePath
+    }
+	
+	# Run notification, if possible
+	$notificationLogoPath = Join-Path -Path $header -ChildPath "na.jpg"
+	
+
+    New-BurntToastNotification -Text "ScreenTime", "ScreenTime locking screen in $i seconds." -AppLogo $notificationLogoPath
 
     
     do {

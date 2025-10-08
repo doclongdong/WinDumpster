@@ -21,7 +21,7 @@ It opens a window in powershell which can be exited by the user.
 
 ### Ways to automatically run it:
 
-For all the following, the command in Task scheduler will be the first word of the command and the arguments will be the rest of the command. 
+For all the following, the Action command in Task scheduler will be the first word of the command and the arguments will be the rest of the command. 
 
 #### with grayscale
 
@@ -35,7 +35,14 @@ For all the following, the command in Task scheduler will be the first word of t
 3. Run with no popup, no minimized window: `wscript.exe /path/to/RunInvisible.vbs /path/to/Screentime.ps1` . The process must be stopped via Task manager.
 
 
-Its best used with the "on workstation unlock" plus repeat for every "x" minutes. 
+
+## Triggers with TaskScheduler
+
+The most foolproof way to configure:
+- "on workstation unlock" plus repeat for every x minutes
+- "on logon" plus repeat for every x minutes
+
+
 Then to test it, you can just lock your desktop Win+L and re-log in to test it. Note: testing directly via Task Scheduler "Run may or may not work so use this lock way to test it. 
 
 

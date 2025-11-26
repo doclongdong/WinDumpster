@@ -31,10 +31,11 @@ A bunch of random scripts and tools and such to improve the windows experience a
 | Script name(s) | Purpose | 
 |----------------|---------|
 | `Top.ps1` | A Windows 10 equivalent (ish) of the `top` command for unix systems | 
-| `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
+| `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds after a warning notification. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
 | `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 
 | `BarrdVault` | A minimalist CSV + GPG-based password manager with a powershell GUI |
 | `GUIRunnerPS` | Run multiple programs at once with a single click, or a default selection after timer timeout. Warning: Janky. |
+| `MediaBlaster` | powershell script to launch a bunch of .url shortcuts in the default browser; configured for an example set of media, but works with any set of URLs | 
 
 
 
@@ -42,5 +43,4 @@ A bunch of random scripts and tools and such to improve the windows experience a
 
 | Script name(s) | Purpose | 
 |----------------|---------|
-| `MediaBlaster` | powershell script to launch a bunch of .url shortcuts in the default browser; configured for an example set of media, but works with any set of URLs | 
 | `ICOFromPNG.ps1` | Single line command to convert a PNG to an ICO for Windows in high qualitiy with ImageMagick `7.x`  |

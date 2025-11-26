@@ -33,6 +33,9 @@ A bunch of random scripts and tools and such to improve the windows experience a
 | `Top.ps1` | A Windows 10 equivalent (ish) of the `top` command for unix systems | 
 | `ScreenTime` | Enforce a "screen time"-like limit when run, including greyscale, and locks the screen after `i` seconds. For greyscale you need AutoHotkeyV2. Combine with TaskScheduler for automation. | 
 | `ProgramLocker` | Alias an executable or command in a password-protecting fake locker,  as an exe | 
+| `BarrdVault` | A minimalist CSV + GPG-based password manager with a powershell GUI |
+| `GUIRunnerPS` | Run multiple programs at once with a single click, or a default selection after timer timeout. Warning: Janky. |
+
 
 
 #### Random Stuff

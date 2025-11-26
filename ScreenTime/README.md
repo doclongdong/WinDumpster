@@ -1,11 +1,13 @@
 ## A Screen time tool for Windows
 ---
 
+##### Lock or disable computer outside of a certain usage window (e.g., 6pm-10pm). Useful for self-control or controlling children's usage. 
 
 
 ### The screentime tool:
 - Makes the screen grayscale (requires AHKv2) and/or creates notification, waits a few seconds (or however long), then
 - Locks, logouts, and/or shutdowns the computer after an interval
+- Does not track usage; only allows within (or disallows outside of) a pre-specified time interval.
 
 
 It is configured right now to disallow usage from all hours except 7-9pm. Its current behavior is to first quickly lock the screen, then shutdown after 5 minutes. 
@@ -44,6 +46,8 @@ The most foolproof way to configure:
 
 
 Then to test it, you can just lock your desktop Win+L and re-log in to test it. Note: testing directly via Task Scheduler "Run may or may not work so use this lock way to test it. 
+
+An example task scheduler configuration is included with `ScreenTime-TaskScheduler.xml`. 
 
 
 
